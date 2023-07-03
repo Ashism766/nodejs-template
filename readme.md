@@ -17,6 +17,11 @@
  ```bash
     git clone https://github.com/Ashism766/nodejs-template.git
  ```
+#### TIPS 
+  clone ther repo contents directly in your local folder without creating the root folder same name as github repo
+   ```bash
+        git clone --depth 1 --single-branch https://github.com/Ashism766/nodejs-template.git .
+   ```
 
  2. Remove origin : this is an importent step, dont push you code to this same repo, this is only for template use
 
