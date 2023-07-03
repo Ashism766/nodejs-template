@@ -5,6 +5,11 @@ import cors from "cors";
 import logger from './app/utils/logger.js';
 import DemoRouter from "./app/api/Demo/routes.js";
 
+// Making the logger object global so we don't have to import it everytime 
+global.logger = logger
+
+
+
 const app = express();
 
 app.use(express.json());
